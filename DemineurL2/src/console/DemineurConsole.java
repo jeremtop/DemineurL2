@@ -37,7 +37,7 @@ public class DemineurConsole {
 				
 			
 			
-			
+		
 			System.out.println();
 		}
 	}

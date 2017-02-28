@@ -1,7 +1,6 @@
 package graphique;
 import model.DemineurModel;
 
-
 public class DemineurGraphique {
 	private DemineurModel demineurModel = new DemineurModel();
 	

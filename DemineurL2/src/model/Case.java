@@ -45,7 +45,5 @@ public class Case {
 	public int getY() {
 		return y;
 	}
-
-
 	
 }
