@@ -2,12 +2,13 @@ package model;
 
 public class Case {
 
-	private DemineurModel demineurModel;
+	
 	private boolean clique;
 	private boolean mine;
-	
+	private boolean flag;
 	private int x;
 	private int y;
+	private DemineurModel demineurModel;
 	
 	public Case(int x, int y) {
 
@@ -44,6 +45,23 @@ public class Case {
 
 	public int getY() {
 		return y;
+	}
+
+	public boolean isFlag() {
+		return flag;
+	}
+	
+	public void setFlag() {
+		if(!flag) {
+			this.flag = true;
+			//demineurModel.setCpt((demineurModel.getCpt())+1);
+		}
+			
+		else {
+			this.flag = false;
+			//demineurModel.setCpt((demineurModel.getCpt())-1);
+		}
+			
 	}
 	
 }
